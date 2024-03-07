@@ -53,8 +53,7 @@ section {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -80,8 +79,7 @@ section {
 
 .header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -158,8 +156,7 @@ section {
   flex-direction: column;
   background-color: #2e2f42;
   align-items: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-header {
@@ -203,6 +200,7 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  padding: 120px 0;
 }
 
 
@@ -230,6 +228,7 @@ section {
 
 .team .container {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-header {
@@ -251,8 +250,13 @@ section {
   padding-bottom: 120px;
 }
 
+.card-item {
+  padding: 32px 0;
+}
+
 .team-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-image {
@@ -281,7 +285,10 @@ section {
 
 /* our portfolio */
 
-.portfolio {}
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-header {
   font-weight: 700;
@@ -332,19 +339,16 @@ section {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 /* footer */
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
-.footer .container {
-
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
