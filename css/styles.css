@@ -86,7 +86,7 @@ section {
 
 .header-navigation {
   display: flex;
-
+  align-items: center;
 }
 
 .logo {
@@ -106,7 +106,8 @@ section {
 
 .header-list {
   display: flex;
-  gap: calc((100% - 80px) / 3);
+  gap: 40px;
+  padding: 24 0;
 }
 
 .header-list-item {}
@@ -117,7 +118,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24 0;
+
 }
 
 .header-list-link:hover,
@@ -173,7 +174,8 @@ section {
 }
 
 .order-service-button {
-  display: flex;
+  display: block;
+  min-width: 169px;
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
@@ -239,7 +241,7 @@ section {
   text-align: center;
   color: #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -352,6 +354,8 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 
 }
 
