@@ -96,6 +96,7 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -257,6 +258,7 @@ section {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-image {
