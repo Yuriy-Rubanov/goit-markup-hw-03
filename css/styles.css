@@ -53,8 +53,9 @@ section {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
+
 }
 
 .visually-hidden {
@@ -109,7 +110,9 @@ section {
   gap: 40px;
 }
 
-.header-list-item {}
+.header-list-item {
+  padding: 24px 0;
+}
 
 .header-list-link {
   font-weight: 500;
