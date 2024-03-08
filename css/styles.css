@@ -48,8 +48,9 @@ img {
 }
 
 section {
+/* section {
   padding-bottom: 120px;
-}
+} */
 
 .container {
   max-width: 1158px;
@@ -346,9 +347,11 @@ section {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
 
+.footer .container {
+  padding: 100px 0;
+}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -373,5 +376,4 @@ section {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
