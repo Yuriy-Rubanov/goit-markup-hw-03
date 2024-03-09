@@ -234,6 +234,7 @@ section {
 
 /* team */
 .team {
+  display: flex;
   padding: 0;
   background-color: #f4f4fd;
 }
@@ -293,6 +294,7 @@ section {
 /* our portfolio */
 
 .portfolio {
+  display: flex;
   padding-top: 0;
 }
 
